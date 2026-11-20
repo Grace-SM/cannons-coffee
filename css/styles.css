@@ -84,9 +84,8 @@ margin: 0 auto;
 header { background-color: var(--catalina);
   text-align: center;
   border-bottom: 2px solid var(--sunglow);
-  /* display: flex; */
   color: var(--white);
-  /* text-transform: uppercase; */
+ padding: o.5rem;
   
 }
 
@@ -118,6 +117,11 @@ img {
 .hero-content{
   padding: 1rem;
   background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
 }
 
 
@@ -186,6 +190,7 @@ footer{
 header{
   display: flex;
   align-items: flex-end;
+  padding-bottom: 0.5rem;
 }
 
 header nav{
